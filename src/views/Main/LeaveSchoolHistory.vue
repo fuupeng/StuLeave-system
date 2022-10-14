@@ -58,7 +58,7 @@ export default {
       nowDate: '',
       // 申请状态
       applyStatus: '',
-      LeavingSchoolList: []
+      LeavingSchoolList: [],
     }
   },
   methods: {
@@ -73,11 +73,11 @@ export default {
       // this.destination = res.data.destination
       // this.nowDate = res.data.date
       this.LeavingSchoolList = res.data
-    }
+    },
   },
   created() {
     this.GetLeavingSchool()
-  }
+  },
 }
 </script>
 
@@ -100,12 +100,12 @@ export default {
       background-color: rgba(134, 138, 147, 0.6);
       height: 70px;
     }
-    td {
-      // button {
-      //   border: none;
-      //   background-color: transparent;
-      // }
-    }
+    // td {
+    //   button {
+    //     border: none;
+    //     background-color: transparent;
+    //   }
+    // }
   }
 }
 </style>
